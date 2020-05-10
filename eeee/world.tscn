@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://house.png" type="Texture" id=4]
+
+[node name="World" type="Node2D"]
+position = Vector2( 1690.3, 508.772 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 703.689, 743.752 ]
+}
+
+[node name="house" type="Sprite" parent="."]
+position = Vector2( -1413.74, -256.584 )
+texture = ExtResource( 4 )
